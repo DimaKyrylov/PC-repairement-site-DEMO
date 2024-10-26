@@ -1,0 +1,482 @@
+@font-face{
+    font-family: "MuseoSanscyr";
+    src: url(Museosanscyrl500.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    width: 100%;
+    height: 70px;
+    background-color: #2e2e2e;
+}
+.menu{
+    width: 70%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+}
+.logo{
+    width: 25%;
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+    height: 70px;
+}
+.logo svg{
+    width: 40px;
+    fill:#ffd903;
+    transition: 0.5s ease-out;
+}
+.logo svg:hover{
+   cursor: pointer;
+   width: 50px;
+   height: 70px;
+   transition: 0.5s ease-out;
+}
+.logo span{
+    font-size: 30px;
+    color: white;
+    font-family: 'MuseoSanscyr';
+    font-weight: bold;
+}
+.slogan{
+    width: 55%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.slogan span{
+    font-size: 20px;
+    color: white;
+    font-family: 'MuseoSanscyr';
+    font-weight: 100;
+}
+.slogan span:hover{
+    cursor: pointer;
+    color: #ffd903;
+}
+.number{
+    width: 23%;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    font-size: 20px;
+    font-family: 'MuseoSanscyr';
+    font-weight: bold;
+}
+.number a{
+    text-decoration: none;
+    color: white;
+}
+.number a:hover{
+    cursor: pointer;
+    color: #ffd903;
+}
+.back{
+    width: 100%;
+    background: url(https://cdn.iz.ru/sites/default/files/styles/1920x1080/public/article-2020-08/RIAN_6253596.HR_.ru%205.jpg?itok=290Gvg-F);
+    height: calc(100vh - 75px);
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    filter: none;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.back_1{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0 0 0 / 9%);
+    opacity: 85%;
+    position: relative;
+}
+.back_1 > div{
+    grid-template-columns: 1fr;
+    row-gap: 50px;
+}
+.back h1{
+    text-align: left;
+    color:white ;
+    margin-top: 120px;
+    text-transform: uppercase;
+    font-size: 80px;
+    line-height: 90px;
+    font-family: "MuseoSanscyr";
+    font-weight: 900;
+}
+.re{
+    width: 50%;
+    height: max-content;
+    margin-left: 15%;
+    float: left;
+}
+.back button{
+    font-family: "MuseoSanscyr";
+    font-size: 25px;
+    font-weight: 900;
+    background: linear-gradient(to bottom,#fee338 0%,#f9ac26 100%);
+    box-shadow: 0 5px 15px 0 rgb(249 168 37);
+    color: white;
+    font-style: normal;
+    border: none;
+    padding: 25px 48px;
+    border-radius: 255px;
+    margin-top: 60px;
+    transition: 0.5s ease-out;
+}
+.back button:hover{
+    margin-right: 52px;
+    transition: 0.5s ease-out;
+    padding: 35px 58px;
+    border-radius: 355px;
+    cursor: pointer;
+}
+.text{
+    width: 100%;
+    margin-top: 20px;
+}
+.text span{
+    color: white;
+    font-size: 24px;
+    font-family: "MuseoSanscyr";
+    font-weight: 100;
+    font-style: none;
+}
+.background{
+    background-color: #f5f5f5;
+    width: 100%;
+    height: max-content;
+    overflow: hidden;
+}
+.columns{
+    width: 90%;
+    min-height: 30px;
+    padding-bottom: 0;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr ;
+    row-gap: 40px;
+    column-gap: 20px;
+    overflow: visible;
+    margin-top: 2%;
+    
+    }
+    .column1{
+    padding: 25px 0px;
+    border-radius: 30px;
+    background: #a5a4a4af;
+    }
+    .column1 p{
+    color: #111;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 20px;
+    font-family: "MuseoSanscyr";
+    font-weight: 400;
+    }
+    .op{
+    background: #e6e6e6;
+    font-size: 60px;
+    text-align: center;
+    }
+    .op p{
+    color: rgb(51, 51, 51);
+    font-size: 60px;
+    text-align: center;
+    line-height: 1.4;
+    }
+    .opti{
+    font-size: 90px;
+    text-align: center;
+    line-height: 1.4;
+    font-family:  "MuseoSanscyr";
+    }
+    .column1 button{
+    box-shadow: 0 5px 15px 0 rgb(249 168 37);
+    font-weight: 900;
+    font-size: 20px;
+    background:linear-gradient(to bottom,#FFEB3B 0%,#F9A825 100%);
+    color: white;
+    border-radius: 20px;
+    display: block;
+    margin: auto;
+    border: none;
+    border-radius: 255px;
+    padding: 20px 50px;
+    margin-top: 55px;
+    transition: 0.5s ease-out;
+    }
+    .column1 button:hover{
+    cursor: pointer;
+    transition: 0.5s ease-out;
+    padding: 35px 58px;
+    border-radius: 355px;
+    }
+    .title{
+    margin-bottom: 100px;
+    font-family: "MuseoSanscyr";
+    font-size: 42px;
+    text-align: center;
+    padding: 0px 0px 0px 0px;
+    color: #111;
+    font-weight: bold;
+    font-style: normal;
+    padding-top: 100px;
+    }
+    .triger-block-content{
+    width: 100%;
+    height: 300px;
+    background-color: rgb(43, 43, 53);
+    overflow: hidden;
+    }
+    .trigers-all{
+    width: 100%;
+    height: 120px;
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 10px;
+    margin-bottom: 80px;
+    margin-left: 8%;
+    }
+    .triger-block{
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    }
+    .triger-block span{
+    display: block;
+    color: white;
+    font-size: 30px;
+    }
+    .number{
+        color: white;
+    }
+    .p_triger{
+        color: white;
+        margin-left: 40px;
+        font-size: 20px; 
+    }
+    .p_triger1{
+        color: white;
+        margin-left: 70px;
+        font-size: 20px; 
+    }
+    .p_triger2{
+        color: white;
+        margin-left: 36px;
+        font-size: 20px; 
+    }
+    .p_triger3{
+        color: white;
+        margin-left: 56px;
+        font-size: 20px; 
+    }
+    .span{
+        color: white;
+        font-size: 20px;
+        text-align: center;
+    }
+    .span2{
+        color: white;
+        font-size: 20px;
+        margin-left: 30px;
+    } 
+    .span3{
+        color: white;
+        font-size: 20px;
+        margin-left: 25px;
+    }
+    .triger-block-content button{
+    font-family: "MuseoSanscyr";
+    font-size: 25px;
+    font-weight: 900;
+    background: linear-gradient(to bottom,#fee338 0%,#f9ac26 100%);
+    box-shadow: 0 5px 15px 0 rgb(249 168 37);
+    color: white;
+    font-style: normal;
+    border: none;
+    display: block;
+    margin: auto;
+    padding: 20px 44px;
+    border-radius: 255px;
+    margin-right: auto;
+    margin-bottom: 80px;
+    transition: 0.5s ease-out;
+    }
+    .triger-block-content button:hover{
+        cursor: pointer;
+        transition: 0.5s ease-out;
+        padding: 25px 48px;
+        border-radius: 355px;
+        }
+
+
+
+        @media (max-width: 768px) {
+         
+            header{
+                width: 100%;
+                height: 70px;
+                background-color: #2e2e2e;
+            }
+            .menu{
+                width: 85%;
+                height: 70px;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                margin: auto;
+            }
+            
+            .back_1{
+                width: 100%;
+                height: 100%;
+                background-color: rgb(0 0 0 / 9%);
+                opacity: 85%;
+                position: relative;
+            }
+          
+            .back h1{
+                text-align: left;
+                color:white ;
+                margin-top: 120px;
+                text-transform: uppercase;
+                font-size: 80px;
+                line-height: 70px;
+                font-family: "MuseoSanscyr";
+                font-weight: 900;
+            }
+            .text{
+                width: 100%;
+                margin-top: 20px;
+            }
+            .text span{
+                color: white;
+                font-size: 34px;
+                font-family: "MuseoSanscyr";
+                font-weight: 100;
+                font-style: none;
+            }
+            .background{
+                background-color: #f5f5f5;
+                width: 100%;
+                height: min-content;
+                overflow: hidden;
+            }
+            .columns{
+                width: 50%;
+                min-height: 10px;
+                padding-bottom: 100px;
+                margin: auto;
+                display: grid;
+                grid-template-columns: 1fr;
+                grid-template-rows: 1fr 1fr 1fr;
+                row-gap: 40px;
+                column-gap: 20px;
+                overflow: visible;
+                margin-top: 2%;
+                
+                }
+               
+              
+                .op{
+                background: #e6e6e6;
+                font-size: 40px;
+                text-align: center;
+                }
+             
+                .trigers-all{
+                width: 85%;
+                height: 120px;
+                overflow: hidden;
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr 1fr;
+                column-gap: 10px;
+                margin-bottom: 80px;
+                margin-right: 60px;
+                }
+                .triger-block{
+                width: 100%;
+                height: 100px;
+                text-align: center;
+                }
+                .triger-block span{
+                display: block;
+                color: white;
+                font-size: 20px;
+                }
+                .number{
+                    color: white;
+                   
+                }
+                .p_triger{
+                    color: white;
+                    margin-left: 10px;
+                    font-size: 20px; 
+                }
+                .p_triger1{
+                    color: white;
+                    margin-left: 70px;
+                    font-size: 20px; 
+                }
+                .p_triger2{
+                    color: white;
+                    margin-left: 36px;
+                    font-size: 20px; 
+                }
+                .p_triger3{
+                    color: white;
+                    margin-left: 56px;
+                    font-size: 20px; 
+                }
+                .span{
+                    color: white;
+                    font-size: 20px;
+                    text-align: center;
+                }
+                .span2{
+                    color: white;
+                    font-size: 20px;
+                    margin-left: 30px;
+                } 
+                .span3{
+                    color: white;
+                    font-size: 20px;
+                    margin-left: 25px;
+                }
+                .triger-block-content button{
+                font-family: "MuseoSanscyr";
+                font-size: 25px;
+                font-weight: 900;
+                background: linear-gradient(to bottom,#fee338 0%,#f9ac26 100%);
+                box-shadow: 0 5px 15px 0 rgb(249 168 37);
+                color: white;
+                font-style: normal;
+                border: none;
+                display: block;
+                margin: auto;
+                padding: 20px 44px;
+                border-radius: 255px;
+                margin-right: auto;
+                margin-bottom: 80px;
+                transition: 0.5s ease-out;
+                }
+                .triger-block-content button:hover{
+                    cursor: pointer;
+                    transition: 0.5s ease-out;
+                    padding: 25px 48px;
+                    border-radius: 355px;
+          }
+        }
